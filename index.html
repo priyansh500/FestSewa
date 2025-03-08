@@ -1,12 +1,36 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <link rel="stylesheet" href="style.css">
     <meta charset="UTF-8">
-    <title>My Website</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FestSewa</title>
+    <style>
+        /* CSS styling */
+        body {
+            margin: 0;
+            padding: 0;
+            height: 100vh; /* Full viewport height */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-family: Arial, sans-serif;
+            background: url('https://images.unsplash.com/photo-1519750157634-b6d493a0f77c?ixlib=rb-4.0.3&auto=format&fit=crop&w=1350&q=80') no-repeat center center fixed;
+            background-size: cover; /* Cover the entire background */
+        }
+
+        .title {
+            color: white; /* White text for visibility */
+            font-size: 4em; /* Large text size */
+            font-weight: bold;
+            text-align: center;
+            text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7); /* Shadow for readability on background */
+            background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background for contrast */
+            padding: 20px;
+            border-radius: 10px;
+        }
+    </style>
 </head>
 <body>
-    <h1>Welcome to My Site</h1>
-    <p>Built entirely on GitHub!</p>
+    <div class="title">FestSewa</div>
 </body>
 </html>
